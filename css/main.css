@@ -6,11 +6,12 @@
 body {
   font-family: "Poppins";
   font-weight: 300;
+  background-color: var(--bg-color);
   color: var(--main-color-text);
 }
 
 .wrapper {
-  height: 100%;
+  min-height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -23,8 +24,8 @@ body {
 
 .page {
   -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
 }
 
 *,
@@ -48,10 +49,6 @@ li {
   list-style: none;
 }
 
-img {
-  vertical-align: top;
-}
-
 h1,
 h2,
 h3,
@@ -59,6 +56,8 @@ h4,
 h5,
 h6,
 p {
+  font-weight: inherit;
+  font-size: inherit;
   margin: 0;
 }
 
@@ -66,10 +65,24 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+  vertical-align: top;
+}
+
+html,
+body {
+  height: 100%;
+  line-height: 1;
 }
 
 button,
 input {
+  font-weight: inherit;
+  font-size: inherit;
+  color: inherit;
+  font-family: inherit;
+}
+
+button {
   cursor: pointer;
   background-color: inherit;
 }
