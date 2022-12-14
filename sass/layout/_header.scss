@@ -2,6 +2,11 @@
   // .header__container
 
   &__container {
+    display: flex;
+    align-items: center;
+    min-height: 116px;
+    padding-top: 5px;
+    padding-bottom: 5px;
   }
 
   // .header__logo
@@ -12,6 +17,7 @@
   // .header__menu
 
   &__menu {
+    flex: 1 1 auto;
   }
 
   // .header__cart
@@ -34,6 +40,8 @@
   // .menu__list
 
   &__list {
+    display: flex;
+    justify-content: flex-end;
   }
 
   // .menu__item
@@ -44,10 +52,14 @@
   // .menu__link
 
   &__link {
+    font-size: 16px;
+    line-height: 1.62; /* 26/16 */
+    color: var(--second-color-text);
   }
 }
 
 .icon-menu {
+  display: none;
 }
 
 .cart-header {
@@ -60,7 +72,4 @@
 
   &__quantity {
   }
-}
-
-.batton {
 }

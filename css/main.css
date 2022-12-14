@@ -1,5 +1,6 @@
 :root {
   --main-color-text: #9c9c9c;
+  --second-color-text: #ffffff;
   --bg-color: #0d0d11;
 }
 
@@ -91,4 +92,38 @@ button {
   margin: 0 auto;
   padding: 0 15px;
   max-width: 1310px;
+}
+
+.header__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 116px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.header__menu {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+}
+.menu__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+.menu__link {
+  font-size: 16px;
+  line-height: 1.62; /* 26/16 */
+  color: var(--second-color-text);
+}
+
+.icon-menu {
+  display: none;
 }/*# sourceMappingURL=main.css.map */
