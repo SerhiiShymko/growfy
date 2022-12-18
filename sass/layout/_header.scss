@@ -1,4 +1,10 @@
 .header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 50;
+  background-color: rgba(13, 13, 17, 0.7);
   // .header__container
 
   &__container {
@@ -16,16 +22,7 @@
     flex: 1 1 auto;
   }
 
-  // .header__cart
-
-  &__cart {
-  }
-
   .menu {
-    // .menu__icon
-    &__icon {
-    }
-
     // .menu__list
     &__list {
       display: flex;
@@ -33,10 +30,6 @@
       column-gap: 35px;
       row-gap: 3px;
       justify-content: flex-end;
-    }
-
-    // .menu__item
-    &__item {
     }
 
     // .menu__link
@@ -106,19 +99,21 @@
     width: 100%;
     height: 100%;
     background-color: black;
-    left: 0;
+    left: -100%;
     top: 0;
     padding: 100px 15px 30px 15px;
     overflow: auto;
+    transition: left 0.3s ease 0s;
     &::before {
       content: "";
       width: 100%;
       position: fixed;
       top: 0;
-      left: 0;
+      left: -100%;
       height: 70px;
       background-color: black;
       z-index: 2;
+      transition: left 0.3s ease 0s;
     }
   }
   .menu__list {

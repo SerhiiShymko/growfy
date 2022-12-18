@@ -24,3 +24,9 @@
     padding: 14px 20px;
   }
 }
+.batton-dark {
+  background: rgba(129, 129, 139, 0.2);
+  &:hover {
+    background-color: rgba(129, 129, 139, 0.4);
+  }
+}

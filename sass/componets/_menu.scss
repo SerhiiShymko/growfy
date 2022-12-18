@@ -28,3 +28,18 @@
     top: calc(50% - 1px);
   }
 }
+.menu-open .menu__body,
+.menu-open .menu__body::before {
+  left: 0;
+}
+.menu-open .icon-menu span {
+  width: 0;
+}
+.menu-open .icon-menu::before {
+  top: calc(50% - 1px);
+  transform: rotate(-45deg);
+}
+.menu-open .icon-menu::after {
+  bottom: calc(50% - 1px);
+  transform: rotate(45deg);
+}
