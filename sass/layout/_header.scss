@@ -15,7 +15,24 @@
     padding-top: 5px;
     padding-bottom: 5px;
   }
+  &_main__label {
+    display: inline-block;
+    border-radius: 12px;
+    font-size: 10px;
+    line-height: 1.7; /* 17/10 */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 11px 18px;
+    border: 1px solid rgba(129, 129, 139, 0.2);
+    transition: border 0.3s ease 0s;
 
+    &:not(:last-child) {
+      margin-bottom: 19px;
+    }
+    &:hover {
+      border: 1px solid rgba(129, 129, 139, 0.4);
+    }
+  }
   // .header__menu
 
   &__menu {
