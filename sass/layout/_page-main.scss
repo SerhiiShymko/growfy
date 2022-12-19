@@ -42,7 +42,6 @@
     font-size: 51px;
     line-height: 1.19; /* 61/51 */
     color: var(--second-color-text);
-    max-width: 520px;
 
     &:not(:last-child) {
       margin-bottom: 28px;
@@ -51,7 +50,6 @@
   &__text {
     font-size: 18px;
     line-height: 1.5; /* 27/18 */
-    max-width: 500px;
 
     &:not(:last-child) {
       margin-bottom: 33px;
