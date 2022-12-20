@@ -18,9 +18,5 @@
     "/.vscode/**"
   ],
   "liveSassCompile.settings.generateMap": true,
-  "liveSassCompile.settings.autoprefix": ["> 1%", "last 2 versions"],
-  "editor.guides.bracketPairs": "active",
-  "editor.guides.bracketPairsHorizontal": "active",
-  "editor.guides.highlightActiveBracketPair": false,
-  "editor.bracketPairColorization.independentColorPoolPerBracketType": true
+  "liveSassCompile.settings.autoprefix": ["> 1%", "last 2 versions"]
 }

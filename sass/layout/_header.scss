@@ -97,6 +97,30 @@
     }
   }
 }
+
+.header_main__list {
+}
+.header_main__list li {
+  position: relative;
+  min-height: 32px;
+  padding-left: 40px;
+  padding-top: 4px;
+  font-size: 16px;
+  line-height: 1.5; /* 24/16 */
+}
+.header_main__list li:not(:last-child) {
+  margin-bottom: 16px;
+}
+.header_main__list li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  background: rgba(129, 129, 139, 0.1) url(../img/li.svg) center no-repeat;
+}
 @media (max-width: 991.98px) {
   .menu__list,
   .header__container {
