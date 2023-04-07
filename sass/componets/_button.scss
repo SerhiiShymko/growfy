@@ -7,7 +7,8 @@
   letter-spacing: 2px;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.43; /* 22/14 */
+  line-height: 1.43;
+  /* 22/14 */
 
   color: var(--second-color-text);
   background-color: #3d96f4;
@@ -19,13 +20,16 @@
     background-color: #689fdb;
   }
 }
+
 @media (max-width: 991.98px) {
   .button {
     padding: 14px 20px;
   }
 }
+
 .batton-dark {
   background: rgba(129, 129, 139, 0.2);
+
   &:hover {
     background-color: rgba(129, 129, 139, 0.4);
   }

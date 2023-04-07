@@ -1,70 +1,76 @@
-.page__blog {
-}
+.page__blog {}
+
 .blog {
-  padding-top: 100px;
-  padding-bottom: 100px;
-}
-.blog_container {
-}
-.blog__header {
-  margin-bottom: 64px;
-}
-.blog__items {
-  display: grid;
-  gap: 48px;
-  grid-template-columns: repeat(3, 1fr);
-}
-.blog__item {
-}
-.item-blog__header {
-  position: relative;
-}
-.item-blog {
-  background: rgba(129, 129, 139, 0.1);
-  border-radius: 24px;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  min-height: 100%;
-}
-.item-blog__category {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  background: rgba(129, 129, 139, 0.5);
-  border-radius: 0px 10px 0px 0px;
-  color: #fff;
-  font-style: 14px;
-  line-height: 1.57; /* 22/14 */
-}
-.item-blog__image {
-}
-.item-blog__body {
-}
-.item-blog__date {
-}
-.item-blog__title {
-}
-.item-blog__link-title {
-}
-.item-blog__text {
-}
-.item-blog__link {
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
-@media (max-width: 767.98px) {
-  .blog {
-    padding-top: 30px;
-    padding-bottom: 30px;
-  }
-  .header_main__body {
-    flex-direction: column;
-    gap: 0;
-  }
-  .header_main__body .header_main__actions {
-    align-self: flex-start;
-  }
-  .item-testimonial {
-    padding: 30px 15px;
-  }
+.blog_container {}
+
+.blog__header {
+    margin-bottom: 64px;
 }
+
+.blog__items {
+    display: grid;
+    gap: 48px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.blog__item {}
+
+.item-blog__header {
+    position: relative;
+}
+
+.item-blog {
+    background: rgba(129, 129, 139, 0.1);
+    border-radius: 24px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.item-blog__category {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: rgba(129, 129, 139, 0.5);
+    border-radius: 0px 10px 0px 0px;
+    color: #fff;
+    font-style: 14px;
+    line-height: 1.57;
+    /* 22/14 */
+}
+
+.item-blog__image {}
+
+.item-blog__body {}
+
+.item-blog__date {}
+
+.item-blog__title {}
+
+.item-blog__link-title {}
+
+.item-blog__text {}
+
+.item-blog__link {}
+
+// @media (max-width: 767.98px) {
+//   .blog {
+//     padding-top: 30px;
+//     padding-bottom: 30px;
+//   }
+//   .header_main__body {
+//     flex-direction: column;
+//     gap: 0;
+//   }
+//   .header_main__body .header_main__actions {
+//     align-self: flex-start;
+//   }
+//   .item-testimonial {
+//     padding: 30px 15px;
+//   }
+// }
