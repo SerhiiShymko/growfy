@@ -116,10 +116,10 @@ button {
     padding: 14px 20px;
   }
 }
-.batton-dark {
+.button-dark {
   background: rgba(129, 129, 139, 0.2);
 }
-.batton-dark:hover {
+.button-dark:hover {
   background-color: rgba(129, 129, 139, 0.4);
 }
 
@@ -1013,7 +1013,7 @@ button {
 }
 .blog {
   padding-top: 100px;
-  padding-bottom: 100px;
+  padding-bottom: 200px;
 }
 
 .blog__header {
@@ -1131,7 +1131,7 @@ button {
 @media (max-width: 991.98px) {
   .blog {
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
   }
   .blog__header {
     margin-bottom: 44px;
@@ -1140,12 +1140,101 @@ button {
 @media (max-width: 767.98px) {
   .blog {
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
   }
   .blog__items {
     grid-template-columns: auto;
   }
   .blog__header {
     margin-bottom: 25px;
+  }
+}
+.page__start {
+  margin-bottom: 100px;
+}
+
+@media (max-width: 991.98px) {
+  .page__start {
+    margin-bottom: 50px;
+  }
+}
+.start__body {
+  background: rgba(129, 129, 139, 0.1);
+  border-radius: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 52px 40px;
+}
+
+.start__column {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 50%;
+          flex: 0 1 50%;
+  text-align: center;
+}
+
+.start__title {
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 1.4;
+  /* 45/32 */
+}
+
+.start__title:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+.start__text {
+  color: #9C9C9C;
+  font-size: 16px;
+  line-height: 1.5;
+  max-width: 340px;
+  display: inline-block;
+}
+
+.start__actions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 32px;
+     -moz-column-gap: 32px;
+          column-gap: 32px;
+  row-gap: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media (max-width: 991.98px) {
+  .start__title {
+    font-size: 24px;
+  }
+  .start__body {
+    -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    row-gap: 30px;
+  }
+}
+@media (max-width: 767.98px) {
+  .start__title {
+    font-size: 24px;
+  }
+}
+@media (max-width: 479.98px) {
+  .start__actions {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }/*# sourceMappingURL=main.css.map */
